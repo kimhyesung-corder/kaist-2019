@@ -1,25 +1,68 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>off on off</title>
     <meta charset="utf-8">
 </head>
+
 <body>
-    <h3><strong>off on off</strong></h3>
+    <div id="continer">
+        <h1><strong>"off on off"</strong></h1>
+    </div>
     <style>
-        li {color:rgb(42, 173, 224);}
-        #target{color:powderblue;}
-       </style>
-<ol>
-    <li id="target">OFFONOFF - 춤</li>
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/zt0Me5qyK4g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <li>OFFONOFF - Bath</li>
-        <iframe width="400" height="200" src="https://www.youtube.com/embed/F9YcaibdONA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <li>OFFONOFF - gold (Feat. DEAN)</li>
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/ZPUPc4EFtSM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <li>offonoff - 'Photograph'</li>
-            <iframe width="400" height="200" src="https://www.youtube.com/embed/2b1E-zu-QEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-</ol>
+        h1 {
+            border-bottom: 3px rgb(235, 95, 2) solid;
+            padding: 30px;
+            font-family: 'Bitter', serif;
+        }
+
+        body {
+            background-color: beige
+        }
+
+        li {
+            color: rgb(42, 173, 224);
+        }
+
+        #target {
+            color: blue;
+        }
+
+        #gold {
+            color: gold; display: grid; grid-template-columns: 1fr 1fr;
+        }
+
+        #expain {
+            color: gold;
+        }
+
+        div {
+            border-right: 20px 50px 30px
+        }
+        #continer1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    </style>
+<div id="continer1">
+    <ul>
+        <li id="target">OFFONOFF - 춤</li>
+        <iframe width="400" height="200" src="https://www.youtube.com/embed/zt0Me5qyK4g" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <li id="gold">OFFONOFF - gold (Feat. DEAN)</li>
+        <iframe width="400" height="200" src="https://www.youtube.com/embed/ZPUPc4EFtSM" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </ul>
+    <div>
+            <li>OFFONOFF - Bath</li>
+            <iframe width="400" height="200" src="https://www.youtube.com/embed/F9YcaibdONA" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <li>offonoff - 'Photograph'</li>
+            <iframe width="400" height="200" src="https://www.youtube.com/embed/2b1E-zu-QEM" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
 </body>
+
 </html>
